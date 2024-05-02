@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# Initialize variables for hours and minutes
+#this is a while loop used to display time for 12 hours and 59 minutes
+#checks if 60 minutes is reached, reset to 0 and increase hours
+
+hours=0
+minutes=1
+
+while [ $hours -le 12 ] && [ $minutes -le 59 ];
+do
+	printf "%02d:%02d\n" $hours $minutes
+
+    ((minutes++))
+
+    if [ $minutes -eq 60 ]; then
+        minutes=0
+        ((hours++))
+    fi
+done | head -n 70

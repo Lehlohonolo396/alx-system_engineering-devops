@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+#this is a for loop used to iterate over files in current  directory
+#this checks if file is not hidden and is a regular file
+#extract name part after first dash
+#show the modified name
+
+for file in *;
+do
+    if [ ! -f "$file" ] || [[ "$file" == .* ]]; then
+        continue
+    fi
+
+    name=$(echo "$file" | cut -d '-' -f 2-)
+
+    echo "$name"
+done
