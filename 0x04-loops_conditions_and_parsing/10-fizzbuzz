@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #this is a for loop used  to iterate over numbers from 1 to 100
 #used to check if number is a multiple of both 3 and 5
 #if not then display the number
