@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Find and kill the process named "7-highlander"
+# Check if the process was successfully killed
+
+pkill -SIGTERM 7-highlander
+
+if [ $? -eq 0 ];
+then
+    echo "Process '7-highlander' killed successfully."
+else
+    echo "Process '7-highlander' is not running or unable to kill it."
+fi

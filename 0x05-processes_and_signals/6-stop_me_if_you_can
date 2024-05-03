@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#Find and stop the process without using kill or killall
+#Check if the process was successfully stopped
+
+pkill -STOP 4-to_infinity_and_beyond
+
+if [ $? -eq 0 ];
+then
+    echo "Process stopped successfully."
+else
+    echo "Process is not running or unable to stop it."
+fi

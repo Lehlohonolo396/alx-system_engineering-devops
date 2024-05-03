@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#Find and stop the process without using kill or kill all
+#Trap SIGTERM signal
+#Infinite loop with sleep
+
+terminate_highlander() {
+    pkill -SIGTERM 7-highlander
+}
+
+trap terminate_highlander SIGTERM
+
+while true; do
+    echo "To infinity and beyond indefinitely"
+    sleep 2
+done
