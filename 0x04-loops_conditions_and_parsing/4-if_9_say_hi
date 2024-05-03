@@ -1,5 +1,4 @@
-#!/bin/env bash
-
+#!/usr/bin/env bash
 #this is a while loop used  to display "Best School" 10 times
 # Checks if the iteration is 9th
 

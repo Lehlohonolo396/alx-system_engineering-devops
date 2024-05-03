@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #this cheks if file exist
 #this checks if file is empty
 #this checks if file is regular

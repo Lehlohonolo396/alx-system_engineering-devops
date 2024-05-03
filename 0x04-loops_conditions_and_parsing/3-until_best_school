@@ -1,5 +1,4 @@
-#!/bin/env bash
-
+#!/usr/bin/env bash
 #this is an  until loop that display "Best School" 10 times
 
 counter=0
@@ -9,4 +8,3 @@ do
     echo "Best School"
     ((counter++))
 done
-

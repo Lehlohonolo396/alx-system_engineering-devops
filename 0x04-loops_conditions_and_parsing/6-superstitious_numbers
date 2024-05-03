@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #this is a while loop used to display the numbers from 1 to 20
 #this is used to check the loop iterartion and display appropriate message
 

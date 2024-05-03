@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # Initialize variables for hours and minutes
 #this is a while loop used to display time for 12 hours and 59 minutes
 #checks if 60 minutes is reached, reset to 0 and increase hours

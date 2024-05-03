@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #this is a for loop used to iterate over files in current  directory
 #this checks if file is not hidden and is a regular file
 #extract name part after first dash

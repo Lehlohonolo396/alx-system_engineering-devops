@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 #this checks the loop iteration and display appropriate message
 #this is a while loop used  to loop from 1 to 10
 
