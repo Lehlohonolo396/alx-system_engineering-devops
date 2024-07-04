@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#start apache2 inside docker
+#fix the apche service
 
-service apache2 start
+sudo service apache2 start
